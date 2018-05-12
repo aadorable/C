@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <assert.h>
 
@@ -40,6 +39,7 @@ void Find_different(int arr[], int len)
 	}
 	printf("different data= %d %d\n",data1, data2);
 }
+
 int main()
 {
 	int arr[] = { 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 7, 8 };
