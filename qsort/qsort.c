@@ -1,9 +1,7 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 //模拟实现qsort函数
 #include <stdio.h>
-#include <windows.h>
 #include <assert.h>
+#include <stdlib.h>
 
 int int_cmp(const void *p1, const void *p2)      //回调函数
 {
@@ -26,7 +24,7 @@ void swap(void *p1, void *p2, int size)
 		y++;
 	}
 }
-void my_qsort(void *base, int count, int size, int(*cmp)(void *, void *))
+void my_qsort(void *base, int count, int size, int(*cmp)(const void *,const void *))
 {
 	assert(base);
 	int i = 0;
@@ -67,6 +65,5 @@ int main()
 	show(arr, len);
 	my_qsort(arr, len, sizeof(int), int_cmp1);
 	show(arr, len);
-	system("pause");
 	return 0;
 }
