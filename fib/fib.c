@@ -1,7 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h>
-#include <windows.h>
 #include <assert.h>
 
 //ตÝน้
@@ -46,6 +43,5 @@ int main()
 	scanf("%d", &num);
 	printf("%d\n", fib1(num));
 	printf("%d\n", fib2(num));
-	system("pause");
 	return 0;
 }
