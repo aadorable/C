@@ -1,5 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h>
 unsigned int reverse_bit(unsigned int value)
 {
@@ -20,6 +18,5 @@ int main()
 	printf("please input a number:");
 	scanf("%d", &num);
 	printf("reverse_bit is %u\n", reverse_bit(num));
-	system("pause");
 	return 0;
 }
