@@ -1,7 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h>
-#include <windows.h>
 #include <assert.h>
 
 ////容易找出其规律为喝2*N-1瓶
@@ -32,6 +29,5 @@ int main()
 	scanf("%d", &money);
 	int num = drink(money);
 	printf("you can drink %d bottles of water!\n", num);
-	system("pause");
 	return 0;
 }
