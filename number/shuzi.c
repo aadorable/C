@@ -1,5 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>             //使用当前时钟做种子
@@ -21,11 +19,11 @@ void game()
 		scanf("%d", &n);
 		if (n > num)
 		{
-			printf("猜大了!\n");
+			printf("猜大了！\n");
 		}
 		else if (n < num)
 		{
-			printf("猜小了!\n");
+			printf("猜小了！\n");
 		}
 		else 
 		{
@@ -54,6 +52,5 @@ int main()
 			break;
 		}
 	} while (input);
-	system("pause");
 	return 0;
 }
