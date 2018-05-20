@@ -1,7 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h>
-#include<windows.h>
 
 void *c = NULL;
 void bug()
@@ -36,6 +33,5 @@ int main()
 	{
 		sub esp,4          //为了平衡栈帧结构
 	}
-	system("pause");
 	return 0;
 }
