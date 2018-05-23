@@ -1,7 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h>
-#include <windows.h>
 #include <assert.h>
 
 char* my_strncat(char* dest, const char* src,int num)
@@ -46,6 +43,5 @@ int main()
 	printf("%s\n", p);
 	my_strncat(p, " world!!",7);
 	printf("%s\n", p);
-	system("pause");
 	return 0;
 }
