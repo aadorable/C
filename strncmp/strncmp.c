@@ -1,7 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h>
-#include <windows.h>
 #include <assert.h>
 
 int my_srtncmp(const char *str1, const char *str2, size_t num)
@@ -34,6 +31,5 @@ int main()
 			printf("result [%d] :%s\n", i, str[i]);
 		}
 	}
-	system("pause");
 	return 0;
 }
