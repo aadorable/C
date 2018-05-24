@@ -1,7 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h>
-#include <windows.h>
 #include <assert.h>
 
 int my_strcmp(const char *str1, const char *str2)
@@ -53,6 +50,5 @@ int main()
 	{
 		printf("%s is less than %s\n", str1, str2);
 	}
-	system("pause");
 	return 0;
 }
