@@ -1,7 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h>
-#include <windows.h>
 #include <assert.h>
 #include <string.h>
 
@@ -36,6 +33,5 @@ int main()
 	char arr[20] = "abcdefg";
 	my_memmove(arr + 1, arr, strlen(arr) + 1);
 	printf("after arr = %s\n", arr);
-	system("pause");
 	return 0;
 }
