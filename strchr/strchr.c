@@ -1,7 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h> 
-#include <windows.h>
 #include <assert.h>
 
 char * my_strchr(const char * str, int ch)
@@ -30,6 +27,5 @@ int main()
 	{
 		printf("could not find the char\n");
 	}
-	system("pause");
 	return 0;
 }
