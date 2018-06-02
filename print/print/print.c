@@ -1,7 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h>
-#include <windows.h>
 #include <assert.h>
 
 void reverse(char* p, char* q)
@@ -40,6 +37,5 @@ int main()
 	char str[] = "student a am i";
 	str_reverse(str);
 	printf("%s\n", str);
-	system("pause");
 	return 0;
 }
