@@ -1,7 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h>
-#include <windows.h>
 #include <assert.h>
 
 int DigitSum(int n)
@@ -22,6 +19,5 @@ int main()
 	printf("please input a number:");
 	scanf("%d", &num);
 	printf("%d\n", DigitSum(num));
-	system("pause");
 	return 0;
 }
